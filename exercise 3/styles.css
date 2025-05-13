@@ -21,6 +21,7 @@ body{
     margin-right: 53.9%;
     border-radius: 10px;
     min-width: 500px;
+    max-width: 500px;
 }
 .body-div{
     padding: 4%;

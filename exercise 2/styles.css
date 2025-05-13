@@ -1,0 +1,45 @@
+.passion {
+  color: rgb(20, 235, 20);
+}
+.logistics {
+  color: rgb(20, 235, 20);
+}
+body {
+  background-color: rgb(148, 142, 134);
+}
+.first-half {
+  background-color: rgb(251, 252, 253);
+  padding-bottom: 1%;
+  margin-left: -2%;
+  margin-top: -2%;
+  margin-right: -8%;
+  box-shadow: 0px 7px 1px rgb(187, 192, 187);
+}
+.first-div {
+  padding: 5%;
+}
+.section-div{
+  position: relative;
+  left: 18px;
+}
+.second-div {
+  background-color: rgb(233, 195, 24);
+  max-width: fit-content;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0px 8px 2px rgb(190, 153, 32);
+  position: absolute;
+  left: -10px;
+  top: 10px;
+}
+.third-div {
+  background-color: white;
+  margin-right: 20px;
+  padding: 2px;
+  padding-left: 15px;
+  padding-top: 90px;
+  padding-right: 15px;
+  max-width: 750px;
+  box-shadow: 0px 10px 2px rgb(184, 181, 177);
+}

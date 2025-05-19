@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Developement Training</title>
     <link rel="stylesheet" href="/exercise 4/asset/styles.css" />
+
   </head>
   <body>
-    <div class="container">
-      <div class="left-section">
-        <div class="logo">
-          <img src="/exercise 4/asset/Logo.png" alt="" />
-        </div>
+    <div class="flex-container">
+      <div class="left-flex">
         <div class="heading">
+          <img src="/exercise 4/asset/Logo.png" alt="" />
           <h2>For Individuals</h2>
           <p style="max-width: 300px">
             Start benefiting from the wellness experience, For companies looking
@@ -20,21 +19,21 @@
           </p>
         </div>
       </div>
-      <div class="right-section">
+      <div class="right-flex">
         <form>
           <div class="form-row">
             <div class="form-group">
-              <label>First Name</label>
-              <input type="text" placeholder="Tolu" />
+              <label>First Name</label><br>
+              <input type="text" placeholder="Tolu" /><br>
             </div>
             <div class="form-group">
-              <label>Last Name</label>
+              <label>Last Name</label> <br>
               <input type="text" />
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label>gender</label>
+              <label>gender</label> <br>
               <select>
                 <option>select genger</option>
                 <option>female</option>
@@ -42,24 +41,24 @@
               </select>
             </div>
             <div class="form-group">
-              <label>select a date</label>
+              <label>select a date</label> <br>
               <input class="date" id="date" name="date" />
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label>Weight (kg)</label>
+              <label>Weight (kg)</label> <br>
               <input type="text" placeholder="enter weight" />
             </div>
             <div class="form-group">
-              <label>Height (cm)</label>
+              <label>Height (cm)</label> <br>
               <input type="text" placeholder="enter height in cm" />
             </div>
           </div>
           <div class="form-row">
             <div class="form-group-full-width">
-              <label>activity level</label>
-              <select>
+              <label>activity level</label> <br>
+              <select class="single-bar-1">
                 <option>select level</option>
                 <option>level 1</option>
                 <option>level 2</option>
@@ -69,14 +68,15 @@
           </div>
           <div class="form-row">
             <div class="form-group-full-width">
-              <label>Password</label>
-              <input type="password" />
+              <label>Password</label> <br>
+              <input type="password" class="single-bar-2" />
             </div>
           </div>
+          <br>
 
           <button type="submit">Register</button>
 
-          <p>
+          <p class="end">
             by clicking register, you agree to our
             <a href="*">terms of use</a> and <a href="*">privacy policy</a>.
           </p>

@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(247, 253, 253);
+    padding: 3%;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left-flex{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: -11px;
+}
+.right-flex{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+@media (min-width: 600px) {
+    .form-row {
+        flex-direction: row;
+    }
+}
+input{
+    min-width: 250px;
+    min-height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+input:hover{
+    border-color: rgb(46, 197, 182);
+}
+input:focus{
+    border-color: rgb(46, 197, 182);
+    outline: none;
+}
+@media (max-width: 767px) {
+    .right-flex{
+    padding: 3%;
+    max-width: 340px;
+    max-height: 690px;
+    }
+    .heading{
+        position: relative;
+        left: -22px;
+    }
+    .end{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    input{
+        min-width: 100%;
+        width: 100%;
+    }
+    select{
+        width: 100%;
+        max-width: 343px;
+    }
+    .single-bar-1{
+       width: 100%;
+       max-width: 343px;
+       min-width: 300px;
+    }
+    .single-bar-2{   
+        max-width: 310px;
+    }
+    button{
+        max-width: 345px;
+    }
+ }
+select{
+    min-width: 258px;
+    min-height: 41px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+select:hover{
+    border-color: rgb(46, 197, 182);
+}
+select:focus{
+    border-color: rgb(46, 197, 182);
+    outline: none;
+}
+button{
+    width:535px;
+    min-height: 41px;
+    background-color: rgb(46, 197, 182);
+    border: rgba(46, 197, 182);
+    border-radius: 4px; 
+}
+.single-bar-1{
+    width:533px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.single-bar-2{
+    width:528px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+a{
+    color: rgb(46, 197, 182);
+}
+.end{
+        text-align: center;
+}
